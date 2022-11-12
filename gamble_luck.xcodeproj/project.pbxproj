@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375AC70D288944B300570C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375AC70C288944B300570C8C /* AppDelegate.swift */; };
+		375AC70F288944B300570C8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375AC70E288944B300570C8C /* SceneDelegate.swift */; };
+		375AC711288944B400570C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375AC710288944B400570C8C /* ViewController.swift */; };
+		375AC714288944B400570C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375AC712288944B400570C8C /* Main.storyboard */; };
+		375AC716288944BB00570C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375AC715288944BB00570C8C /* Assets.xcassets */; };
+		375AC719288944BB00570C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375AC717288944BB00570C8C /* LaunchScreen.storyboard */; };
+		375AC721288A546800570C8C /* SetBoatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375AC720288A546800570C8C /* SetBoatViewController.swift */; };
+		375AC723288A54B900570C8C /* Result_BoatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375AC722288A54B900570C8C /* Result_BoatViewController.swift */; };
+		375AC725288A550E00570C8C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375AC724288A550E00570C8C /* ResultViewController.swift */; };
+		375AC727288A678300570C8C /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375AC726288A678300570C8C /* MoneyViewController.swift */; };
+		375AC729288A708E00570C8C /* warudakumi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 375AC728288A708E00570C8C /* warudakumi.mp3 */; };
+		375AC72B288A756400570C8C /* ResultMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 375AC72A288A756400570C8C /* ResultMusic.mp3 */; };
+		375AC72D288A7BA500570C8C /* baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 375AC72C288A7BA300570C8C /* baby.mp3 */; };
+		375AC72F288A7DDA00570C8C /* money.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 375AC72E288A7DD900570C8C /* money.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		375AC709288944B300570C8C /* gamble_luck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gamble_luck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		375AC70C288944B300570C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		375AC70E288944B300570C8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		375AC710288944B400570C8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		375AC713288944B400570C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		375AC715288944BB00570C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		375AC718288944BB00570C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		375AC71A288944BB00570C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375AC720288A546800570C8C /* SetBoatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetBoatViewController.swift; sourceTree = "<group>"; };
+		375AC722288A54B900570C8C /* Result_BoatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result_BoatViewController.swift; sourceTree = "<group>"; };
+		375AC724288A550E00570C8C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		375AC726288A678300570C8C /* MoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
+		375AC728288A708E00570C8C /* warudakumi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = warudakumi.mp3; sourceTree = "<group>"; };
+		375AC72A288A756400570C8C /* ResultMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ResultMusic.mp3; sourceTree = "<group>"; };
+		375AC72C288A7BA300570C8C /* baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baby.mp3; sourceTree = "<group>"; };
+		375AC72E288A7DD900570C8C /* money.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = money.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		375AC706288944B300570C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		375AC700288944B300570C8C = {
+			isa = PBXGroup;
+			children = (
+				375AC70B288944B300570C8C /* gamble_luck */,
+				375AC70A288944B300570C8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		375AC70A288944B300570C8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375AC709288944B300570C8C /* gamble_luck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		375AC70B288944B300570C8C /* gamble_luck */ = {
+			isa = PBXGroup;
+			children = (
+				375AC70C288944B300570C8C /* AppDelegate.swift */,
+				375AC70E288944B300570C8C /* SceneDelegate.swift */,
+				375AC710288944B400570C8C /* ViewController.swift */,
+				375AC712288944B400570C8C /* Main.storyboard */,
+				375AC724288A550E00570C8C /* ResultViewController.swift */,
+				375AC726288A678300570C8C /* MoneyViewController.swift */,
+				375AC722288A54B900570C8C /* Result_BoatViewController.swift */,
+				375AC720288A546800570C8C /* SetBoatViewController.swift */,
+				375AC728288A708E00570C8C /* warudakumi.mp3 */,
+				375AC72A288A756400570C8C /* ResultMusic.mp3 */,
+				375AC72C288A7BA300570C8C /* baby.mp3 */,
+				375AC72E288A7DD900570C8C /* money.mp3 */,
+				375AC715288944BB00570C8C /* Assets.xcassets */,
+				375AC717288944BB00570C8C /* LaunchScreen.storyboard */,
+				375AC71A288944BB00570C8C /* Info.plist */,
+			);
+			path = gamble_luck;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		375AC708288944B300570C8C /* gamble_luck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375AC71D288944BB00570C8C /* Build configuration list for PBXNativeTarget "gamble_luck" */;
+			buildPhases = (
+				375AC705288944B300570C8C /* Sources */,
+				375AC706288944B300570C8C /* Frameworks */,
+				375AC707288944B300570C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gamble_luck;
+			productName = gamble_luck;
+			productReference = 375AC709288944B300570C8C /* gamble_luck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		375AC701288944B300570C8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					375AC708288944B300570C8C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 375AC704288944B300570C8C /* Build configuration list for PBXProject "gamble_luck" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 375AC700288944B300570C8C;
+			productRefGroup = 375AC70A288944B300570C8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				375AC708288944B300570C8C /* gamble_luck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		375AC707288944B300570C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375AC719288944BB00570C8C /* LaunchScreen.storyboard in Resources */,
+				375AC716288944BB00570C8C /* Assets.xcassets in Resources */,
+				375AC72D288A7BA500570C8C /* baby.mp3 in Resources */,
+				375AC729288A708E00570C8C /* warudakumi.mp3 in Resources */,
+				375AC72B288A756400570C8C /* ResultMusic.mp3 in Resources */,
+				375AC72F288A7DDA00570C8C /* money.mp3 in Resources */,
+				375AC714288944B400570C8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375AC705288944B300570C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375AC723288A54B900570C8C /* Result_BoatViewController.swift in Sources */,
+				375AC711288944B400570C8C /* ViewController.swift in Sources */,
+				375AC70D288944B300570C8C /* AppDelegate.swift in Sources */,
+				375AC70F288944B300570C8C /* SceneDelegate.swift in Sources */,
+				375AC721288A546800570C8C /* SetBoatViewController.swift in Sources */,
+				375AC727288A678300570C8C /* MoneyViewController.swift in Sources */,
+				375AC725288A550E00570C8C /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		375AC712288944B400570C8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375AC713288944B400570C8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		375AC717288944BB00570C8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375AC718288944BB00570C8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		375AC71B288944BB00570C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		375AC71C288944BB00570C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		375AC71E288944BB00570C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ADFC7R8K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gamble_luck/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nonayan.gamble-luck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		375AC71F288944BB00570C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ADFC7R8K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gamble_luck/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nonayan.gamble-luck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		375AC704288944B300570C8C /* Build configuration list for PBXProject "gamble_luck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375AC71B288944BB00570C8C /* Debug */,
+				375AC71C288944BB00570C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375AC71D288944BB00570C8C /* Build configuration list for PBXNativeTarget "gamble_luck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375AC71E288944BB00570C8C /* Debug */,
+				375AC71F288944BB00570C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 375AC701288944B300570C8C /* Project object */;
+}
